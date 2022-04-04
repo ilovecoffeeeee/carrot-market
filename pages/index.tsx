@@ -8,7 +8,7 @@ const Home: NextPage = () => {
         xl:place-content-center
         "
       >
-        <div className="bg-white dark:bg-black flex flex-col justify-between p-5 rounded-2xl shadow-xl">
+        <div className="bg-white dark flex flex-col justify-between p-5 rounded-2xl shadow-xl">
           <span className="font-semibold text-3xl">Select Item</span>
           <ul>
             {
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
             </button>
           </div>
         </div>
-        <div className="bg-white overflow-hidden rounded-2xl shadow-xl group">
+        <div className="bg-white dark overflow-hidden rounded-2xl shadow-xl group">
           <div className="bg-blue-500 p-6 pb-14 xl:pb-52">
             <span className="text-white text-2xl">Profile</span>
           </div>
@@ -61,7 +61,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white p-10 rounded-2xl shadow-xl lg:col-span-2 xl:col-span-1">
+        <div className="bg-white dark p-10 rounded-2xl shadow-xl lg:col-span-2 xl:col-span-1">
           <div className="flex mb-5 justify-between items-center">
             <span>⬅</span>
             <div className="space-x-3">
