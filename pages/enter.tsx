@@ -34,8 +34,8 @@ export default function Enter() {
               </button>
             </div>
           </div>
-          <form>
-            <label>
+          <form className="flex flex-col mt-8">
+            <label className="text-sm font-medium text-gray-700">
               {method === "email" ? "Email address" : null}
               {method === "phone" ? "Phone number" : null}
             </label>
