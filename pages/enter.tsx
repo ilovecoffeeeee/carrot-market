@@ -77,10 +77,11 @@ export default function Enter() {
               border-transparent 
               rounded-md shadow-sm
               text-sm font-medium
+              focus:outline-none
               focus:ring-2 
               focus:ring-offset-2 
               focus:ring-orange-500
-              focus:outline-none"
+              "
             >
               {method === "email" ? "Get login link" : null}
               {method === "phone" ? "Get one-time password" : null}
