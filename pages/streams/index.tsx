@@ -2,8 +2,14 @@ import type { NextPage } from "next";
 import Link from "next/link";
 import FloatingButton from "@components/floating-button";
 import Layout from "@components/layout";
-import type { Stream } from "@prisma/client";
+import type { Product, Stream } from "@prisma/client";
 import useSWR from "swr";
+
+export interface ProductWithCount extends Product {
+  _count: {
+    favs: number;
+  };
+}
 
 interface StreamsResponse {
   ok: boolean;
